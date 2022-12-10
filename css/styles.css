@@ -1,0 +1,50 @@
+body{
+	
+	background-color: darkred;
+
+}
+#header-nav{
+	background-color: #f6b319;
+	border: 0px;
+	border-radius: 0px;
+}
+#image-logo{
+	background: url('../restaurant-logo_medium.png');
+	width: 100px;
+	height: 100px;
+	margin: 10px 0px 10px 50px;
+}
+.navbar-brand{
+	padding: 20px 10px 0px 10px;
+
+}
+.navbar-brand  h1 {
+	font-family: 'Lora' serif;
+	color: #557ce3;
+	transform: Uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.navbar-brand a:hover.navbar-brand a:active{
+	background-color: red;
+}
+.navbar-brand p{
+	color: #000;
+	text-transform: uppercase;
+	padding: 0px 0px px 0px;
+	font-weight:bold ;
+
+
+}
+#img-k{
+	width: 20px;
+	height: 20px;
+}
+span{
+	
+	font-size: 12px;
+	color: black;
+
+}
