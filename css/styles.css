@@ -76,21 +76,33 @@ body {
 #phone a{
 	font-size: 1.5em;
   text-align: right;
-  padding-bottom: 0;
+  padding-bottom: 0px;
+
+
 }
 #phone div{
 	text-align: right;
-
+  padding-top: 3px;
 	padding-right: 15px;
 	color: #557c3e;
-	
 }
+.container .jumbotron{
 
+}
 @media (min-width:1200px){
+  .container .jumbotron{
+    background: url(../restuarant_original_1200x675.jpg);
+    height: 675px;
 
+  }
 }
 @media (min-width:992px) and (max-width:1199px){
-  
+   .container .jumbotron{
+    background: url(../restuarant_original_1_992x558.jpg);
+    height: 558px;
+
+
+  }
 }
 @media (min-width:768px) and (max-width:991px){
   .navbar-brand{
@@ -102,6 +114,12 @@ body {
   .navbar-brand p img{
     height: 20px;
   }
+  .container .jumbotron{
+    background: url(../restuarant_original_2_768x432.jpg);
+    height: 432px;
+    
+
+  }
 }
 @media (max-width:767px){
   .navbar-brand{
@@ -110,6 +128,7 @@ body {
   }
   .navbar-brand a h1{
     font-size: 5vw;
+    margin-top: 5px;
   }
   .navbar-brand p {
     font-size: .6em;
@@ -119,5 +138,34 @@ body {
     height: 20px;
 
   }
- 
+  .container .jumbotron{
+    margin-top: 30px;
+  }
 }
+
+
+ #class-btn a {
+
+    font-size: 1.3em;
+    display: block;
+    margin: 5px 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #f6b319;
+    color: #951c49;
+    letter-spacing: 1px;
+
+
+ }
+ 
+ #xs-deliver{
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.8px;
+ }
+
+ .container .jumbotron {
+  padding: 0px;
+
+ }
