@@ -12,7 +12,7 @@ body {
 }
 
 #image-logo {
-  background: url('../output-onlinepngtools 150 by 150.png') no-repeat;
+  background: url('../images/output-onlinepngtools 150 by 150.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 0px 15px 0px -30px;
@@ -91,14 +91,14 @@ body {
 }
 @media (min-width:1200px){
   .container .jumbotron{
-    background: url(../restuarant_original_1200x675.jpg);
+    background: url(../images/restuarant_original_1200x675.jpg);
     height: 675px;
 
   }
 }
 @media (min-width:992px) and (max-width:1199px){
    .container .jumbotron{
-    background: url(../restuarant_original_1_992x558.jpg);
+    background: url(../images/restuarant_original_1_992x558.jpg);
     height: 558px;
 
 
@@ -115,11 +115,10 @@ body {
     height: 20px;
   }
   .container .jumbotron{
-    background: url(../restuarant_original_2_768x432.jpg);
+    background: url(../images/restuarant_original_2_768x432.jpg);
     height: 432px;
-    
-
   }
+
 }
 @media (max-width:767px){
   .navbar-brand{
@@ -140,6 +139,10 @@ body {
   }
   .container .jumbotron{
     margin-top: 30px;
+  }
+  #menu-tile , #special-tile{
+    width: 360px;
+    margin:auto ;
   }
 }
 
@@ -167,5 +170,38 @@ body {
 
  .container .jumbotron {
   padding: 0px;
-
+  box-shadow:0 0 50px #3F0C1F ;
+  border: 2px solid #3F0C1F;
  }
+  #menu-tile{
+  background: url(../images/istockphoto-184946701360x250.jpg) no-repeat;
+  background-position: center;
+
+  }
+  #special-tile{
+  background: url(../images/photo-1604382354936-07c5d9983bd3_360x250.jpg) no-repeat;
+  background-position: center;
+  }
+  #menu-tile span , #special-tile span  , #map-tile span {
+  text-align: center;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: .7;
+  color: #fff;
+  
+  }
+  #menu-tile , #special-tile , #map-tile {
+  height: 250px;
+/*  width: 100%;*/
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  }
+  #menu-tile:hover , #special-tile:hover , #map-tile:hover{
+    box-shadow: 0  1px 5px 1px #cccccc;
+  }
