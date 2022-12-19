@@ -144,6 +144,9 @@ body {
     width: 360px;
     margin:auto ;
   }
+  .footer-panel section{
+    text-align: center;
+  }
 }
 
 
@@ -205,3 +208,33 @@ body {
   #menu-tile:hover , #special-tile:hover , #map-tile:hover{
     box-shadow: 0  1px 5px 1px #cccccc;
   }
+
+  .footer-panel{
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #222;
+  }
+  .row{
+    margin-bottom: 30px;
+  }
+  #hours>span , #address>span{
+    font-size: 1.5em;
+  }
+  #hours , #address{
+    line-height: 1.8;
+
+
+  }
+  #address p{
+    font-size: .8em;
+    color: #557c3e;
+  }
+  #testimonials p:nth-child(2){
+    margin-top: 30px; 
+  }
+  #testimonials{
+    font-style: italic;
+
+  }
+
