@@ -140,15 +140,44 @@ body {
   .container .jumbotron{
     margin-top: 30px;
   }
-  #menu-tile , #special-tile{
-    width: 360px;
+  
+  #menu-tile,#special-tile {
+
+    width:360px ;
     margin:auto ;
   }
   .footer-panel section{
     text-align: center;
   }
 }
+@media (max-width: 479px) {
+  /* Header */
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+  /* End Header */
+  
+  /* Home page */
+   #specials-tile{
+    height: 250px;
+    width: 100%;
+    margin: 0 auto 15px;
+   }
+  #menu-tile {
+    width: 280px;
+    margin: 0 auto 15px;
+  }
 
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
 
  #class-btn a {
 
@@ -199,7 +228,7 @@ body {
   }
   #menu-tile , #special-tile , #map-tile {
   height: 250px;
-/*  width: 100%;*/
+  width: 100%;
   margin-bottom: 15px;
   position: relative;
   border: 2px solid #3F0C1F;
@@ -237,4 +266,30 @@ body {
     font-style: italic;
 
   }
+.catogory-tile{
+  position: relative;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  border: 2px solid #3F0C1F;
+  margin: 0 auto 15px;
+}
+.catogory-tile span{
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: #000;
+  opacity: .7;
+  color: #fff;
+  font-size: 1.2em;
+}
+.catogory-tile:hover{
+  box-shadow:0 1px 5px 1px #cccccc;
+}
+#Extra-menu-cat {
+  margin-bottom: 50px;
+}
 
