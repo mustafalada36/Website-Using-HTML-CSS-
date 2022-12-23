@@ -10,10 +10,10 @@ Main Features:
 3) Media Queries to manage the response.
 
 Some part are missing in this webpage hopefully these are completed after.
-This webpage is bug free and error free
+This webpage is bug free and error free almost from my side
 
 
 INFO:
-Forks and Knives Pizza Restaurant  
+Forks and Knives Pizza Restaurant Website
 
-BY:Muhammad Mustafa
+BY:Muhammad Mustafa (W)
