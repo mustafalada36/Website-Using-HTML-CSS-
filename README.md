@@ -8,3 +8,5 @@ Main Features:
 1) Responsive Design 
 2) Using Bootstrap 5 Framework
 3) Media Queries to manage the response.
+
+Some part are missing in this webpage
