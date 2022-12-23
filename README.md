@@ -9,4 +9,5 @@ Main Features:
 2) Using Bootstrap 5 Framework
 3) Media Queries to manage the response.
 
-Some part are missing in this webpage hopefully these are completed after
+Some part are missing in this webpage hopefully these are completed after.
+This webpage is bug free and error free
