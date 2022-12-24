@@ -1,5 +1,5 @@
 This is complete Website.
-Using HTML,CSS (not now but after & Javascript).
+Using HTML,CSS (not now but after Javascript).
 
 Link to test:
 https://mustafalada36.github.io/Website-Using-HTML-CSS-/
