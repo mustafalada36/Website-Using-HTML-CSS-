@@ -1,5 +1,5 @@
 This is complete Website.
-But In Processing
+But In Processing take a lit bit more time
 Using HTML,CSS (not now but after Javascript).
 
 Link to test:
