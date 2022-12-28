@@ -100,9 +100,8 @@ body {
    .container .jumbotron{
     background: url(../images/restuarant_original_1_992x558.jpg);
     height: 558px;
-
-
   }
+  
 }
 @media (min-width:768px) and (max-width:991px){
   .navbar-brand{
@@ -118,7 +117,9 @@ body {
     background: url(../images/restuarant_original_2_768x432.jpg);
     height: 432px;
   }
-
+  .menu-item-tile .menu-item-price{
+    text-align: right;
+  }
 }
 @media (max-width:767px){
   .navbar-brand{
@@ -149,6 +150,17 @@ body {
   .footer-panel section{
     text-align: center;
   }
+  .menu-item-photo{
+    margin-right: auto;
+  }
+  .menu-item-tile .menu-item-price{
+    text-align: center;
+  }
+  .menu-item-description{
+    text-align: center;
+    margin-top: 10px;
+  }
+  
 }
 @media (max-width: 479px) {
   /* Header */
@@ -291,5 +303,46 @@ body {
 }
 #Extra-menu-cat {
   margin-bottom: 50px;
+}
+#main-content1 {
+  margin-bottom: 20px;
+}
+.menu-item-tile{
+  margin-bottom: 25px;
+}
+.menu-item-tile  .menu-item-price{
+  font-size: 1.1em;
+/*  text-align: center;*/
+  margin-top: 5px;
+  margin-right: auto;
+}
+
+.menu-item-tile .menu-item-price span{
+  font-size: .6em;
+}
+.menu-item-photo{
+  position: relative;
+  border: 2px solid #3F0C1F;
+  max-width: 250px;
+  margin-left: auto;
+  overflow: hidden;
+}
+.menu-item-photo div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 80px;
+  background-color:#557c3e;
+  text-align: center;
+}
+.menu-item-description{
+  padding-right: 30px;
+}
+h3.menu-item-tile{
+  margin: 0 0 10px;
+}
+.menu-item-details{
+  font-size: .9em;
+  font-style: italic;
 }
 
